@@ -1,0 +1,140 @@
+﻿@page "/"
+
+<PageTitle>Classique</PageTitle>
+
+<div class="main">
+    <div class="cadre-question">
+        <span class="text-question">Devinez le personnage !</span>
+        <span class="annotation-question">Choisissez n'importe quel personnage pour commencer.</span>
+    </div>
+    <div class="cadre-reponse">
+        <input type="text" class="input-reponse"/>
+    </div>
+    <table>
+        <thead>
+        <tr>
+            <th>Nom</th>
+            <th>Genre</th>
+            <th>Affiliations</th>
+            <th>Monde d'origine</th>
+            <th>Première apparition</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td class="wrong">Sora</td>
+            <td class="right">Masculin</td>
+            <td>Gardiens de la Lumière, Disney</td>
+            <td>Destiny Islands</td>
+            <td>Kingdom Hearts</td>
+        </tr>
+        <tr>
+            <td>Kairi</td>
+            <td>Féminin</td>
+            <td>Gardiens de la Lumière, Disney</td>
+            <td>Destiny Islands</td>
+            <td>Kingdom Hearts</td>
+        </tr>
+        <tr>
+            <td>Mickey Mouse</td>
+            <td>Masculin</td>
+            <td>Disney, Gardiens de la Lumière</td>
+            <td>Disney Castle</td>
+            <td>Kingdom Hearts</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+
+
+<style>
+    .wrong {
+        background-color: red;
+    }
+    
+    .right {
+        background-color: green;
+    }
+    
+    body {
+        background-image: url('img/background.webp');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        min-height: 100vh;
+    }
+
+    .main {
+        height: 100vh; /* Utilise toute la hauteur de la fenêtre */
+        display: flex;
+        flex-direction: column; /* Aligne les éléments verticalement */
+        justify-content: flex-start; /* Aligne les éléments en haut */
+        align-items: center; /* Centre horizontalement */
+        font-family: 'Arial', sans-serif;
+        padding-top: 20px; /* Ajoute un peu d'espace en haut si nécessaire */
+    }
+
+    .input-reponse {
+        background-color: transparent;
+        color: white;
+        width: 300px;
+        height: 70px;
+        background-image: url('img/menuInput.webp');
+        background-size: 100% 100%; /* Étire l'image pour couvrir exactement le div */
+        background-position: center;
+        background-repeat: no-repeat; /* Empêche la répétition de l'image */
+        border: none; /* Supprime la bordure par défaut */
+        outline: none; /* Supprime le contour lors du focus */
+        padding: 10px 15px; /* Ajoute un peu d'espace intérieur */
+        font-size: 18px; /* Taille de police appropriée */
+        text-align: center; /* Centre le texte horizontalement */
+        font-family: 'Arial', sans-serif; /* Police lisible */
+        transition: all 0.3s ease; /* Ajoute une transition douce pour les effets hover */
+    }
+
+    .input-reponse::placeholder {
+        color: rgba(255, 255, 255, 0.7); /* Couleur du placeholder légèrement transparente */
+    }
+
+    .input-reponse:focus {
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Effet de lueur lors du focus */
+    }
+
+    .input-reponse:hover {
+        transform: scale(1.02); /* Léger agrandissement au survol */
+    }
+
+
+    .cadre-question {
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    .text-question {
+        color: white;
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .annotation-question {
+        color: #ccc;
+        font-size: 14px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+</style>

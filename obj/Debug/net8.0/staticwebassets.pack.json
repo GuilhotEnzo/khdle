@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "/home/depinfo/Documents/khdle/obj/Debug/net8.0/scopedcss/projectbundle/khdle.bundle.scp.css",
+      "PackagePath": "staticwebassets/khdle.bundle.scp.css"
+    },
+    {
+      "Id": "/home/depinfo/Documents/khdle/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/home/depinfo/Documents/khdle/wwwroot/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/home/depinfo/Documents/khdle/wwwroot/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/home/depinfo/Documents/khdle/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/home/depinfo/Documents/khdle/wwwroot/img/background.webp",
+      "PackagePath": "staticwebassets/img/background.webp"
+    },
+    {
+      "Id": "/home/depinfo/Documents/khdle/wwwroot/img/menuInput.webp",
+      "PackagePath": "staticwebassets/img/menuInput.webp"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.khdle.props",
+      "PackagePath": "build\\khdle.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.khdle.props",
+      "PackagePath": "buildMultiTargeting\\khdle.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.khdle.props",
+      "PackagePath": "buildTransitive\\khdle.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.khdle.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
